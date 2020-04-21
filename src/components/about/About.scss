@@ -1,0 +1,100 @@
+/* About Section */
+
+.about {
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20rem;
+  padding-bottom: 10rem;
+  background: url('../../img/About.svg') no-repeat;
+  background-size: 70% 70%;
+  background-position: -25% 55%;
+}
+
+.about-content {
+  padding: 0 2rem 0 50%;
+}
+
+h2.about-title {
+  font-weight: 400;
+  font-size: 3.2rem;
+  color: #ffffff;
+  margin-bottom: 4rem;
+}
+
+p.about-para {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: #99a0cc;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-align: justify;
+}
+
+.about-cta {
+  display: flex;
+  align-items: center;
+  margin: 6rem 0;
+}
+
+.about-circle {
+  margin-right: 2rem;
+  height: 6rem;
+  width: 6rem;
+  background-color: #ffaa3c;
+  border-radius: 50%;
+}
+
+p.about-arrow {
+  color: #000;
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+h3.cta-title,
+span.cta-subtitle {
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  color: #ffaa3c;
+}
+
+h3.cta-title {
+  color: #ffaa3c;
+}
+
+span.cta-subtitle {
+  color: #99a0cc;
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    background-size: 90% 90%;
+    background-position: 5% 5%;
+  }
+  .about-content {
+    padding: 0 2rem 0 2rem;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2.about-title {
+    font-size: 2.8rem;
+  }
+  .about-circle {
+    margin-right: 2rem;
+    width: 4rem;
+    height: 4rem;
+    min-height: 4rem;
+    min-width: 4rem;
+    background-color: #ffaa3c;
+    border-radius: 50%;
+  }
+  p.about-arrow {
+    font-size: 3rem;
+  }
+}

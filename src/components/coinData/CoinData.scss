@@ -1,0 +1,245 @@
+/* Coin Data Section */
+
+.coin-data {
+  margin-top: 15rem;
+  margin-bottom: 10rem;
+}
+
+.coin-market {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.coin-title {
+  font-size: 1.2rem;
+  color: #99a0cc;
+  font-weight: 400;
+}
+
+.bitcoin-btc {
+  border-right: 1px solid #99a0cc;
+  display: flex;
+  margin-top: 3rem;
+}
+
+.bitcoin-sites {
+  border-right: 1px solid #99a0cc;
+}
+
+.btc-logo {
+  background-color: #1b223f;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.btc-logo img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.btc-content {
+  margin-left: 2rem;
+}
+
+.btc-title {
+  font-size: 2.4rem;
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+.btc-title-span {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: #ffaa3c;
+  margin-left: 0.5rem;
+}
+
+.market-cap {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #99a0cc;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.market-cap-span {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #ffaa3c;
+  font-weight: 400;
+}
+
+.market-hike {
+  margin-top: 1.5rem;
+  font-size: 2.4rem;
+  color: #de943a;
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+.market-hike-span {
+  font-size: 1.4rem;
+  color: #37e478;
+  margin-left: 1.5rem;
+}
+
+.bitcoin-sites {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.bitcoin-website {
+  grid-row: 1/2;
+  grid-column: 1/6;
+  display: flex;
+}
+
+.coin-website {
+  flex: 2;
+  margin-left: 2rem;
+}
+
+.coin-map-website {
+  flex: 4;
+}
+
+.bitcoin-community-link {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.social-sites {
+  display: flex;
+  align-items: center;
+}
+
+.social-sites p {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  color: #de943a;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.bitcoin-community {
+  grid-column: 1 / 6;
+  grid-row: 3/4;
+}
+
+.bitcoin-community-title {
+  font-size: 1.2rem;
+  color: #99a0cc;
+  font-weight: 400;
+  margin-left: 2rem;
+}
+
+.coin-website,
+.coin-map-website {
+  font-size: 1.2rem;
+  color: #99a0cc;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.coin-site,
+.coin-map-site {
+  font-size: 1.2rem;
+  color: #de943a;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.bitcoin-explorers {
+  margin-left: 2rem;
+  grid-column: 1 / 6;
+  grid-row: 2/3;
+}
+
+.social-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  background-color: #de943a;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+}
+
+.fab-icons {
+  font-size: 1.6rem;
+  color: #131733;
+  margin: 0 auto;
+}
+
+.footer-icons {
+  font-size: 3rem;
+  color: #99a0cc;
+  margin: 0 auto;
+}
+
+.bitcoin-market {
+  margin-top: 6rem;
+  margin-left: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.market-website {
+  font-size: 1.2rem;
+  color: #99a0cc;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.market-site {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-weight: 400;
+  padding-top: 1rem;
+}
+
+.coins-info-inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+  padding: 0 5rem;
+  border: 1px solid #4351b3;
+  padding-bottom: 20rem;
+}
+
+.coins-info-inputs input {
+  display: block;
+  font: inherit;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: 1px solid #4351b3;
+  margin: 4rem 0;
+  padding: 2rem;
+  width: 100%;
+  color: #ffffff;
+}
+
+.input-container {
+  position: relative;
+}
+.coins-info-inputs label {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #99a0cc;
+  background-color: #131733;
+  position: absolute;
+  left: 1rem;
+  top: -1.2rem;
+  padding: 0 0.5rem;
+}

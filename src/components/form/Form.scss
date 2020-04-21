@@ -1,0 +1,88 @@
+/* Form Section */
+
+.form {
+  margin-top: 20rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  grid-gap: 2rem;
+}
+
+.form-title {
+  font-size: 3.2rem;
+  color: #fff;
+}
+
+.form-para {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #99a0cc;
+  font-family: 'Roboto';
+  font-weight: 400;
+  text-align: justify;
+  max-width: 40rem;
+}
+
+.inputs-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 6rem 0;
+}
+
+.form-inputs {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form input {
+  display: block;
+  font: inherit;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: 0.5px solid #99a0cc;
+  margin: 4rem 0;
+  padding: 2rem;
+  width: 100%;
+  color: #ffffff;
+}
+
+.input-container {
+  position: relative;
+}
+.form label {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #99a0cc;
+  background-color: #131733;
+  position: absolute;
+  left: 1rem;
+  top: -1.2rem;
+  padding: 0 0.5rem;
+}
+
+.listed-para {
+  font-size: 1.5rem;
+  color: #99a0cc;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.radio-text {
+  font-size: 1.5rem;
+  color: #99a0cc;
+  margin: 1.5rem 4rem 0 0;
+}
+
+.form input[type='radio'] {
+  display: inline-block;
+  margin: 0 1rem;
+  padding: 0;
+  width: auto;
+}
+
+.btn-save {
+  margin: 5rem auto;
+  width: 100%;
+}

@@ -1,0 +1,215 @@
+/* Features Section */
+
+.features-section {
+  display: flex;
+  margin: 10rem 0;
+}
+
+.feature-1-img,
+.feature-2-img,
+.feature-3-img,
+.feature-4-img,
+.feature-5-img {
+  padding-top: 30rem;
+  padding-bottom: 10rem;
+}
+
+.feature-1-img,
+.feature-3-img,
+.feature-5-img {
+  padding-left: 30rem;
+}
+
+.feature-2-img,
+.feature-4-img {
+  padding-left: 80rem;
+}
+
+.feature-1-img {
+  position: relative;
+  background: url('../../img/Shield.svg') no-repeat,
+    url('../../img/Untitled-1.svg') no-repeat;
+  background-position: 9.5rem 16rem, 19rem 24rem;
+  background-size: 27rem 27rem, 9rem 9rem;
+  animation: scale-1 3s ease-in-out infinite;
+}
+
+.feature-2-img {
+  position: relative;
+  background: url('../../img/Shield.svg') no-repeat,
+    url('../../img/Untitled-2.svg') no-repeat;
+  background-position: 60rem 16rem, 69rem 24rem;
+  background-size: 27rem 27rem, 9rem 9rem;
+  animation: scale-2 3s ease-in-out infinite;
+}
+
+.feature-3-img {
+  position: relative;
+  background: url('../../img/Shield.svg') no-repeat,
+    url('../../img/Untitled-3.svg') no-repeat;
+  background-position: 9.5rem 16rem, 18.5rem 24rem;
+  background-size: 27rem 27rem, 9rem 9rem;
+  animation: scale-3 3s ease-in-out infinite;
+}
+
+.feature-4-img {
+  position: relative;
+  background: url('../../img/Shield.svg') no-repeat,
+    url('../../img/Untitled-4.svg') no-repeat;
+  background-position: 35rem 16rem, 69rem 24rem;
+  background-size: 27rem 27rem, 9rem 9rem;
+  animation: scale-2 3s ease-in-out infinite;
+}
+
+.feature-5-img {
+  position: relative;
+  background: url('../../img/Shield.svg') no-repeat,
+    url('../../img/Untitled-5.svg') no-repeat;
+  background-position: 9.5rem 16rem, 19rem 24rem;
+  background-size: 27rem 27rem, 9rem 9rem;
+  animation: scale-1 3s ease-in-out infinite;
+}
+
+h2.feature-title {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+p.feature-para {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 40rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #99a0cc;
+  font-family: 'Roboto';
+  font-weight: 400;
+  text-align: justify;
+}
+
+.hr-line {
+  width: 15rem;
+  height: 0.2rem;
+  background-color: #1d234d;
+  margin: 3rem 0;
+}
+
+@keyframes scale-1 {
+  0% {
+    background-size: 27rem 27rem, 9rem 9rem;
+    background-position: 9.5rem 16rem, 19rem 24rem;
+  }
+  50% {
+    background-size: 37rem 37rem, 9rem 9rem;
+    background-position: 4.5rem 11rem, 19rem 24rem;
+  }
+  100% {
+    background-size: 27rem 27rem, 9rem 9rem;
+    background-position: 9.5rem 16rem, 19rem 24rem;
+  }
+}
+
+@keyframes scale-2 {
+  0% {
+    background-size: 27rem 27rem, 9rem 9rem;
+    background-position: 60rem 16rem, 69rem 24rem;
+  }
+  50% {
+    background-size: 37rem 37rem, 9rem 9rem;
+    background-position: 55rem 11rem, 69rem 24rem;
+  }
+  100% {
+    background-size: 27rem 27rem, 9rem 9rem;
+    background-position: 60rem 16rem, 69rem 24rem;
+  }
+}
+
+@keyframes scale-3 {
+  0% {
+    background-size: 27rem 27rem, 9rem 9rem;
+    background-position: 9.5rem 16rem, 18.5rem 24rem;
+  }
+  50% {
+    background-size: 37rem 37rem, 9rem 9rem;
+    background-position: 4.5rem 11rem, 18.5rem 24rem;
+  }
+  100% {
+    background-size: 27rem 27rem, 9rem 9rem;
+    background-position: 9.5rem 16rem, 18.5rem 24rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .feature-1-img {
+    background: url('../../img/Shield.svg') no-repeat,
+      url('../../img/Untitled-1.svg') no-repeat;
+    animation: scale-4 3s ease-in-out infinite;
+  }
+  .feature-2-img {
+    background: url('../../img/Shield.svg') no-repeat,
+      url('../../img/Untitled-2.svg') no-repeat;
+    animation: scale-5 3s ease-in-out infinite;
+  }
+  .feature-3-img {
+    background: url('../../img/Shield.svg') no-repeat,
+      url('../../img/Untitled-3.svg') no-repeat;
+    animation: scale-5 3s ease-in-out infinite;
+  }
+  .feature-4-img {
+    background: url('../../img/Shield.svg') no-repeat,
+      url('../../img/Untitled-4.svg') no-repeat;
+    animation: scale-5 3s ease-in-out infinite;
+  }
+  .feature-5-img {
+    background: url('../../img/Shield.svg') no-repeat,
+      url('../../img/Untitled-5.svg') no-repeat;
+    animation: scale-4 3s ease-in-out infinite;
+  }
+
+  .feature-1-img,
+  .feature-2-img,
+  .feature-3-img,
+  .feature-4-img,
+  .feature-5-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30rem 0 10rem 0;
+    position: relative;
+  }
+
+  @keyframes scale-4 {
+    0% {
+      background-size: 25rem 25rem, 7.5rem 7.5rem;
+      background-position: 50% 2.5rem, 51.5% 10rem;
+    }
+    50% {
+      background-size: 30rem 30rem, 7.5rem 7.5rem;
+      background-position: 50% 0, 51.5% 10rem;
+    }
+    100% {
+      background-size: 25rem 25rem, 7.5rem 7.5rem;
+      background-position: 50% 2.5rem, 51.5% 10rem;
+    }
+  }
+
+  @keyframes scale-5 {
+    0% {
+      background-size: 25rem 25rem, 7.5rem 7.5rem;
+      background-position: 50% 2.5rem, 50% 10rem;
+    }
+    50% {
+      background-size: 30rem 30rem, 7.5rem 7.5rem;
+      background-position: 50% 0, 50% 10rem;
+    }
+    100% {
+      background-size: 25rem 25rem, 7.5rem 7.5rem;
+      background-position: 50% 2.5rem, 50% 10rem;
+    }
+  }
+}

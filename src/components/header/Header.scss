@@ -1,0 +1,23 @@
+/* Header */
+
+.main-header {
+  height: 10rem;
+  margin: 0 2rem 0 2rem;
+}
+
+.logo-container {
+  margin: 2rem 2rem;
+  margin-left: -1rem;
+  height: 8rem;
+}
+
+.logo-container img {
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .logo-container img {
+    display: block;
+    margin: 0 auto;
+  }
+}
