@@ -52,3 +52,45 @@
   background-color: #4351b3;
   margin: 2.5rem auto 0 auto;
 }
+
+.coins-info-inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+  padding: 0 5rem;
+  border: 1px solid #4351b3;
+  padding-bottom: 20rem;
+}
+
+.coins-info-inputs input {
+  display: block;
+  font: inherit;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: 1px solid #4351b3;
+  margin: 4rem 0;
+  padding: 2rem;
+  width: 100%;
+  color: #ffffff;
+}
+
+.input-container {
+  position: relative;
+}
+.coins-info-inputs label {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #99a0cc;
+  background-color: #131733;
+  position: absolute;
+  left: 1rem;
+  top: -1.2rem;
+  padding: 0 0.5rem;
+}
+
+@media (max-width: 1000px) {
+  .coins-info-inputs {
+    display: block;
+    padding-bottom: 5rem;
+  }
+}

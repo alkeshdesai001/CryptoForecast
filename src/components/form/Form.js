@@ -5,10 +5,10 @@ const Form = (props) => (
   <div className='container'>
     <section className='form' id='form-section'>
       <div className='form-content'>
-        <div className='form-title'>
+        <h1 className='form-title'>
           Lorem ipsum <br />
           dolor sit amet
-        </div>
+        </h1>
         <p className='form-para'>
           Data is the new gold and we want to ensure that gold is pure.
           Therefore Veritas requires to be handled by the senior level members

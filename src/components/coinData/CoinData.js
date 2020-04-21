@@ -5,6 +5,7 @@ const CoinData = (props) => (
   <div className='container'>
     <section className='coin-data' id='coin-data-section'>
       <div className='coin-title'>Coins/Bitcoin</div>
+
       <div className='coin-market'>
         <div className='bitcoin-btc'>
           <div className='btc-logo'>

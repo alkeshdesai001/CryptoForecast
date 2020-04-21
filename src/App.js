@@ -22,7 +22,7 @@ function App() {
       <Form />
       <CoinData />
       <Tabs />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Footer />
     </div>
   );
