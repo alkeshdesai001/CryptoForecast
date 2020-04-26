@@ -13,7 +13,9 @@ body {
 }
 
 main {
-  background: url('./img/Path\ 37.svg');
+  background: url('./img/Path1.svg') no-repeat;
+  background-position: calc(50% - 60rem) 50rem;
+  background-size: 295rem;
 }
 
 /* Utility Classes */
@@ -21,14 +23,6 @@ main {
 .container {
   max-width: 1300px;
   margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-  .container {
-    width: 90vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 .btn {
@@ -76,4 +70,21 @@ main {
 
 .ml-2 {
   margin-left: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main {
+    background: none;
+  }
+}
+
+@media (min-width: 2100px) {
+  main {
+    background: none;
+  }
 }

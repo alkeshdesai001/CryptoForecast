@@ -16,13 +16,15 @@ function App() {
   return (
     <div className='App'>
       <Header />
-      <Hero />
-      <About />
-      <Features />
-      <Form />
-      <CoinData />
-      <Tabs />
-      {/* <Testimonials /> */}
+      <main>
+        <Hero style={{ display: 'none' }} />
+        <About style={{ display: 'none' }} />
+        <Features style={{ display: 'none' }} />
+        <Form style={{ display: 'none' }} />
+        <CoinData style={{ display: 'none' }} />
+        <Tabs style={{ display: 'none' }} />
+        <Testimonials style={{ display: 'none' }} />
+      </main>
       <Footer />
     </div>
   );

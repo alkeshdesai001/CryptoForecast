@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 63" width="63" height="63">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #99a0cc } 
+		.shp1 { fill: none } 
+		.shp2 { fill: none;stroke: #99a0cc } 
+	</style>
+	<g id="Group 17">
+		<g id="baseline-keyboard_arrow_right-24px">
+			<path id="Path 31" class="shp0" d="M28.59 36.59L33.17 32L28.59 27.41L30 26L36 32L30 38L28.59 36.59Z" />
+			<path id="Path 32" class="shp1" d="M20 20L44 20L44 44L20 44L20 20Z" />
+		</g>
+		<path id="Ellipse 2" class="shp2" d="M32 62C15.41 62 2 48.59 2 32C2 15.41 15.41 2 32 2C48.59 2 62 15.41 62 32C62 48.59 48.59 62 32 62Z" />
+	</g>
+</svg>

@@ -67,7 +67,7 @@ const CoinData = (props) => (
                 <div className='social-logo'>
                   <i className='fab fa-twitter fab-icons'></i>
                 </div>
-                <p>Tweeter</p>
+                <p>Twitter</p>
               </a>
             </div>
           </div>

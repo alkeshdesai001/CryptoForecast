@@ -117,7 +117,8 @@
   display: flex;
 }
 
-.social-sites {
+a.social-sites {
+  text-decoration: none;
   display: flex;
   align-items: center;
 }

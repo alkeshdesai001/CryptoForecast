@@ -142,7 +142,14 @@ p.feature-para {
   }
 }
 
-@media (max-width: 768px) {
+// @media (max-width: 1100px) {
+//   .feature-2-img,
+//   .feature-4-img {
+//     padding-left: 50%;
+//   }
+// }
+
+@media (max-width: 1200px) {
   .feature-1-img {
     background: url('../../img/Shield.svg') no-repeat,
       url('../../img/Untitled-1.svg') no-repeat;
@@ -186,15 +193,15 @@ p.feature-para {
   @keyframes scale-4 {
     0% {
       background-size: 25rem 25rem, 7.5rem 7.5rem;
-      background-position: 50% 2.5rem, 51.5% 10rem;
+      background-position: 50% 2.5rem, 50.5% 10rem;
     }
     50% {
       background-size: 30rem 30rem, 7.5rem 7.5rem;
-      background-position: 50% 0, 51.5% 10rem;
+      background-position: 50% 0, 50.5% 10rem;
     }
     100% {
       background-size: 25rem 25rem, 7.5rem 7.5rem;
-      background-position: 50% 2.5rem, 51.5% 10rem;
+      background-position: 50% 2.5rem, 50.5% 10rem;
     }
   }
 

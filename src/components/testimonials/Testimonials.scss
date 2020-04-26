@@ -1,0 +1,130 @@
+.testimonial-content {
+  background-image: url('../../img/Path2.svg'), url('../../img/Path3.svg');
+  background-repeat: no-repeat;
+  background-position: right, left;
+}
+
+.carousel {
+  max-width: 1300px;
+  height: 120rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30rem;
+  padding-bottom: 30rem;
+  position: relative;
+}
+
+img.quotes {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8rem;
+  height: 10rem;
+  width: 10rem;
+}
+
+h3.testimonial-title {
+  font-size: 2.4rem;
+  line-height: 4.2rem;
+  max-width: 75rem;
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-weight: 500;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8rem;
+  height: 10rem;
+  width: 10rem;
+}
+
+.carBtn {
+  opacity: 0.5;
+}
+
+.carBtn:hover,
+.carBtn:active,
+.carBtn:focus {
+  opacity: 1;
+  outline: none;
+}
+
+.buttonBack {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  transform: rotate(180deg);
+}
+
+.buttonNext {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+}
+
+.dotGroup {
+  text-align: center;
+}
+
+.carousel__dot {
+  width: 3rem;
+  height: 0.2rem;
+  padding: 0.2rem;
+  margin: 1rem;
+  border: none;
+  background-color: #1d234d;
+}
+
+.carousel__dot--selected {
+  background-image: linear-gradient(92deg, #00aeef 0%, #0000ff 100%);
+  width: 5rem;
+}
+
+@media (min-width: 2100px) {
+  .testimonial-content {
+    background: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-content {
+    background: none;
+  }
+  .carousel {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: 70rem;
+  }
+  .testimonial-content {
+    margin: 2rem;
+  }
+  h3.testimonial-title {
+    padding: 3rem;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    text-align: justify;
+  }
+  img.quotes {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  img.avatar {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .carBtn {
+    display: none;
+  }
+}

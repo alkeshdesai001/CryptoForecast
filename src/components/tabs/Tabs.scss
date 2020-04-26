@@ -91,6 +91,20 @@
 @media (max-width: 1000px) {
   .coins-info-inputs {
     display: block;
+    padding: 0 1rem;
+    color: transparent;
     padding-bottom: 5rem;
+  }
+
+  .info-links,
+  .tabs-nav-links {
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .info-link,
+  .tabs-nav-link {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
